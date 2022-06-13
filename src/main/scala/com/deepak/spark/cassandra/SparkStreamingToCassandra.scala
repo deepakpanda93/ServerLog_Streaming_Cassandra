@@ -14,7 +14,6 @@ object SparkStreamingToCassandra {
     batchDF.write.format("org.apache.spark.sql.cassandra").options(Map( "table" -> CassandraTable, "keyspace" -> cassandraKeyspace)).save()
   }
 
-
   def main(args: Array[String]): Unit = {
 
     val appName = "Spark Cassandra Integration"

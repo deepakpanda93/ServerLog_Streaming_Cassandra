@@ -51,6 +51,5 @@
             <artifactId>spark-cassandra-connector_2.11</artifactId>
             <version>2.4.3</version>
         </dependency>
-
     </dependencies>
 </project>
